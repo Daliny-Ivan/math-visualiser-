@@ -17,7 +17,7 @@ st.markdown(
 
 
 st.title("SCIENCE APP")
-st.subheader("Choose from below")
+st.subheader("Choose from below..")
 
 st.write("""
 Explore interactive graphs:
