@@ -37,6 +37,16 @@ if conic == "Circle":
     x = r * np.cos(theta)
     y = r * np.sin(theta)
     fig.add_trace(go.Scatter(x=x, y=y, mode="lines"))
+     fig.update_layout(template='plotly_dark',
+                      xaxis=dict(
+                          zeroline=True,
+                          zerolinewidth=2,
+                          scaleanchor='y',
+                          scaleratio=1),
+                      yaxis=dict(
+                          zeroline=True,
+                          zerolinewidth=2),
+                      showlegend=False)
 
 # ───────── PARABOLA ─────────
 elif conic == "Parabola":
