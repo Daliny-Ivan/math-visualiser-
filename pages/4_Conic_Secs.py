@@ -3,7 +3,8 @@
 import streamlit as st
 import numpy as np
 import plotly.graph_objects as go
-
+import os
+import base64
 st.set_page_config(page_title="Conic Sections", layout="centered")
 
 # -------BG IMG--
