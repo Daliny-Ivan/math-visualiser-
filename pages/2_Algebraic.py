@@ -3,7 +3,7 @@
 import streamlit as st
 import numpy as np
 import plotly.graph_objects as go
-
+import os,base64
 #-----BG-----------
 
 sd=os.path.dirname(os.path.abspath(__file__))
