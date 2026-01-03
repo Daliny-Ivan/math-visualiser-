@@ -3,7 +3,7 @@
 import streamlit as st
 import numpy as np
 import plotly.graph_objects as go
-import os
+'''import os
 import base64
 st.set_page_config(page_title="Conic Sections", layout="centered")
 
@@ -39,7 +39,7 @@ colour:white !important;
 </style>
 """,unsafe_allow_html=True)
 #----end---
-
+'''
 # Dark background
 st.markdown(
     """
