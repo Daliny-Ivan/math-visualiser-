@@ -5,7 +5,7 @@ import numpy as np
 import plotly.graph_objects as go
 import os,base64
 #-----BG-----------
-
+'''
 sd=os.path.dirname(os.path.abspath(__file__))
 bg_p=os.path.join(sd,"assests","bg_sciapp.png")
 
@@ -34,7 +34,7 @@ colour:white !important;
 }}
 </style>
 """,unsafe_allow_html=True)
-
+'''
 # ------MAIN 
 st.set_page_config(page_title="Algebra Lab", layout="centered")
 
